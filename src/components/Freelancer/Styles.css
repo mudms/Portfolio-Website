@@ -1,0 +1,155 @@
+/* FreelancingSection.css */
+
+.freelancing-section {
+    padding: 60px 0;
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    color: #f7f8f9;
+  }
+  
+  .freelancing-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .freelancing-title {
+    margin-top: 10px;
+    font-size: 144px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1;
+  }
+  @media (max-width: 767px)  {
+    .freelancing-title {
+      margin-top: 10px;
+      font-size: 62px;
+      text-align: center;
+      margin-bottom: 40px;
+      line-height: 1;
+    
+    }
+    .freelancing-title-qwe { 
+      opacity: 0;
+    } }
+
+  
+.freelancing-title-qwe { 
+    font-size: 220px;
+  font-weight: lighter;
+  position: absolute;
+  z-index: 100;
+  padding: 10px;
+  border-radius: 10px;
+  color: aqua;
+}
+.freelancing-title-service { 
+    color: #FFCAE9;
+    font-size: 120px;
+}
+@media (max-width: 767px)  {
+  .freelancing-title-service {     
+    font-size: 50px;
+    color: #FFCAE9;
+}
+}
+  .freelancing-services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .freelancing-service {
+    color: #000;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  @media (max-width: 767px)  {
+    .freelancing-service {
+      color: #000;
+      margin: 20px;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 4px;
+    }
+  }
+  
+  .service-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 16px;
+  }
+  
+  .differentiators {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .differentiators-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .differentiators-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .differentiator-item {
+    margin-bottom: 10px;
+  }
+  
+  .connect-section {
+    text-align: center;
+  }
+  
+  .connect-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .connect-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .connect-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .form-textarea {
+    height: 150px;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .freelancing-services {
+      grid-template-columns: 1fr;
+    }
+  }
+  

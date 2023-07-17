@@ -1,0 +1,70 @@
+/* styles.css */
+
+.navbar {
+    
+    background-color: #FBFBFB;
+    color: #121212;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  .logo {
+    height: 60px; /* Adjust the height as needed */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+  }
+  @media (max-width: 767px) {
+    /* Styles for screens smaller than a tablet */
+    /* Add your styles here */
+    .navbar-container{
+        padding: 20px 20px;
+    }
+  }
+    
+
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-buttons {
+    display: flex;
+  }
+  
+  .nav-button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #121212;
+    border-radius: 10px;
+    padding: 15px 18px;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  #b1{
+    color:#121212;
+  }
+  #b2{
+    background-color: #121212;
+  }
+  #b2:hover {
+    background-color: #fff;
+    color: #121212;
+  }
+  
+  .nav-button:hover {
+    background-color: #fff;
+    color: #121212;
+  }
+  
+  /* Adjust the styles based on your design preferences */
+  

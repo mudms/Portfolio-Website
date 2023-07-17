@@ -1,0 +1,24 @@
+/* styles.css */
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 80px;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .scroll-to-top.visible {
+    opacity: 1;
+  }
+  
+  /* Adjust the styles based on your design preferences */
+  
