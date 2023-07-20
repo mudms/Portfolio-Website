@@ -12,6 +12,7 @@
     "fas-web-ui-components": "^4.0.6",
     "nodemailer": "^6.9.3",
     "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
     "react-draggable": "^4.4.5",
     "react-scripts": "5.0.1",
